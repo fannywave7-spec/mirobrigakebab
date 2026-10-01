@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clínica Dental Virginia García Sánchez | Dentista en Salamanca</title>
+  <meta name="description" content="Clínica dental en Salamanca con 4,9 estrellas en Google. Odontología general, ortodoncia invisible, estética dental, implantes y periodoncia. Pide cita: 923 10 02 67." />
+  <meta name="theme-color" content="#1b2a57" />
+  <meta name="color-scheme" content="light" />
+  <meta property="og:title" content="Clínica Dental Virginia García Sánchez" />
+  <meta property="og:description" content="Tu sonrisa en las mejores manos en Salamanca." />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/gabinete-azul.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%231b2a57'/%3E%3Cpath d='M9 12c4-5 10-5 15-1.5C29 7 35 7 39 12c3.5 4.5 2 10.5-1 15.5-2.2 3.8-2.4 9.5-4 13.5-.9 2.2-3 2.1-3.7-.3L27.6 32c-.9-3-6.3-3-7.2 0l-2.7 8.7c-.7 2.4-2.8 2.5-3.7.3-1.6-4-1.8-9.7-4-13.5-3-5-4.5-11-1-15.5Z' fill='none' stroke='%2350aee6' stroke-width='3.2' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="images/gabinete-azul.jpg" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-background: oklch(1 0 0);
+      --color-foreground: oklch(0.24 0.06 262);
+      --color-primary: oklch(0.3 0.09 262);
+      --color-primary-foreground: oklch(0.985 0 0);
+      --color-secondary: oklch(0.965 0.012 240);
+      --color-muted-foreground: oklch(0.48 0.03 255);
+      --color-accent: oklch(0.68 0.13 235);
+      --color-border: oklch(0.92 0.012 245);
+      --color-whatsapp: oklch(0.72 0.19 150);
+      --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+      --font-heading: "Barlow", ui-sans-serif, system-ui, sans-serif;
+      --radius-xl: 1.225rem;
+      --radius-2xl: 1.575rem;
+      --radius-3xl: 1.925rem;
+    }
+    @layer base {
+      * { @apply border-border; }
+      body { @apply bg-background text-foreground font-sans antialiased; }
+    }
+  </style>
+  <style>
+    html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+    @keyframes wa-pulse {
+      0% { transform: scale(1); opacity: 0.6; }
+      100% { transform: scale(1.7); opacity: 0; }
+    }
+    .animate-wa-pulse { animation: wa-pulse 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .animate-wa-pulse { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky top-0 z-40 border-b border-border/70 bg-white/90 backdrop-blur-md">
+    <div class="mx-auto flex h-18 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
+      <a href="#inicio" aria-label="Clínica Dental Virginia García Sánchez, ir al inicio" data-close-menu>
+        <span class="flex items-center gap-2.5">
+          <span class="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" class="size-8 text-accent"><path d="M9 12c4-5 10-5 15-1.5C29 7 35 7 39 12c3.5 4.5 2 10.5-1 15.5-2.2 3.8-2.4 9.5-4 13.5-.9 2.2-3 2.1-3.7-.3L27.6 32c-.9-3-6.3-3-7.2 0l-2.7 8.7c-.7 2.4-2.8 2.5-3.7.3-1.6-4-1.8-9.7-4-13.5-3-5-4.5-11-1-15.5Z" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          </span>
+          <span class="flex flex-col leading-none">
+            <span class="font-heading text-lg font-bold uppercase tracking-wide text-primary">Virginia García</span>
+            <span class="font-heading text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-accent">Clínica Dental · VGS</span>
+          </span>
+        </span>
+      </a>
+
+      <nav aria-label="Principal" class="hidden lg:block">
+        <ul class="flex items-center gap-7">
+          <li><a href="#inicio" class="text-sm font-medium text-foreground/80 transition-colors hover:text-accent">Inicio</a></li>
+          <li><a href="#servicios" class="text-sm font-medium text-foreground/80 transition-colors hover:text-accent">Servicios</a></li>
+          <li><a href="#nosotros" class="text-sm font-medium text-foreground/80 transition-colors hover:text-accent">Sobre Nosotros</a></li>
+          <li><a href="#resenas" class="text-sm font-medium text-foreground/80 transition-colors hover:text-accent">Reseñas</a></li>
+          <li><a href="#contacto" class="text-sm font-medium text-foreground/80 transition-colors hover:text-accent">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="hidden items-center gap-4 lg:flex">
+        <a href="tel:+34923100267" class="flex items-center gap-2 text-sm font-semibold text-primary hover:text-accent">
+          <i data-lucide="phone" class="size-4 text-accent" aria-hidden="true"></i>
+          +34 923 10 02 67
+        </a>
+        <a href="#contacto" class="flex h-11 items-center gap-2 rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-accent">
+          <i data-lucide="calendar-check" class="size-4" aria-hidden="true"></i>
+          Pedir Cita
+        </a>
+      </div>
+
+      <div class="flex items-center gap-1 lg:hidden">
+        <a href="tel:+34923100267" aria-label="Llamar al +34 923 10 02 67" class="flex size-11 items-center justify-center rounded-full text-primary hover:bg-secondary">
+          <i data-lucide="phone" class="size-5" aria-hidden="true"></i>
+        </a>
+        <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" class="flex size-11 items-center justify-center rounded-full text-primary hover:bg-secondary">
+          <span id="icon-open"><i data-lucide="menu" class="size-6" aria-hidden="true"></i></span>
+          <span id="icon-close" class="hidden"><i data-lucide="x" class="size-6" aria-hidden="true"></i></span>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" aria-label="Móvil" class="hidden border-t border-border bg-white px-4 pb-6 pt-2 lg:hidden">
+      <ul class="flex flex-col">
+        <li><a href="#inicio" data-close-menu class="flex min-h-12 items-center border-b border-border/60 text-base font-medium text-primary">Inicio</a></li>
+        <li><a href="#servicios" data-close-menu class="flex min-h-12 items-center border-b border-border/60 text-base font-medium text-primary">Servicios</a></li>
+        <li><a href="#nosotros" data-close-menu class="flex min-h-12 items-center border-b border-border/60 text-base font-medium text-primary">Sobre Nosotros</a></li>
+        <li><a href="#resenas" data-close-menu class="flex min-h-12 items-center border-b border-border/60 text-base font-medium text-primary">Reseñas</a></li>
+        <li><a href="#contacto" data-close-menu class="flex min-h-12 items-center border-b border-border/60 text-base font-medium text-primary">Contacto</a></li>
+      </ul>
+      <a href="#contacto" data-close-menu class="mt-5 flex h-12 items-center justify-center gap-2 rounded-full bg-primary text-base font-semibold text-primary-foreground">
+        <i data-lucide="calendar-check" class="size-5" aria-hidden="true"></i>
+        Pedir Cita
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="relative overflow-hidden bg-gradient-to-b from-secondary to-white">
+      <div class="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 lg:grid-cols-2 lg:gap-14 lg:pb-24 lg:pt-16">
+        <div class="flex flex-col">
+          <a href="#resenas" class="mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-border bg-white py-1.5 pl-2 pr-4 shadow-sm transition-colors hover:border-accent">
+            <span class="flex items-center gap-1 rounded-full bg-primary px-2.5 py-1 text-sm font-bold text-white">
+              <i data-lucide="star" class="size-3.5 fill-amber-400 text-amber-400" aria-hidden="true"></i>
+              4,9/5
+            </span>
+            <span class="text-sm text-muted-foreground">
+              <strong class="font-semibold text-primary">+440 opiniones</strong> positivas en Google Maps
+            </span>
+          </a>
+
+          <h1 class="font-heading text-4xl font-bold leading-[1.05] tracking-tight text-primary text-balance sm:text-5xl lg:text-6xl">
+            Tu Sonrisa en Las Mejores Manos en <span class="text-accent">Salamanca</span>
+          </h1>
+          <p class="mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground text-pretty">
+            Atención odontológica integral, personalizada y sin dolor. Cuidamos de tu salud bucodental con la más alta tecnología.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/34923100267?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20cita%20en%20la%20Cl%C3%ADnica%20Dental%20Virginia%20Garc%C3%ADa%20S%C3%A1nchez." target="_blank" rel="noopener noreferrer" class="flex h-14 items-center justify-center gap-2.5 rounded-full bg-whatsapp px-7 text-base font-semibold text-white shadow-lg shadow-whatsapp/25 transition-transform hover:-translate-y-0.5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="size-5"><use href="#wa-icon"/></svg>
+              Reservar Cita por WhatsApp
+            </a>
+            <a href="tel:+34923100267" class="flex h-14 items-center justify-center gap-2.5 rounded-full border-2 border-primary px-7 text-base font-semibold text-primary transition-colors hover:bg-primary hover:text-white">
+              <i data-lucide="phone" class="size-5" aria-hidden="true"></i>
+              Llamar Ahora (+34 923 10 02 67)
+            </a>
+          </div>
+
+          <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
+            <li class="flex items-center gap-2"><i data-lucide="shield-check" class="size-4 text-accent" aria-hidden="true"></i>Primera valoración personalizada</li>
+            <li class="flex items-center gap-2"><i data-lucide="shield-check" class="size-4 text-accent" aria-hidden="true"></i>Financiación a medida</li>
+            <li class="flex items-center gap-2"><i data-lucide="shield-check" class="size-4 text-accent" aria-hidden="true"></i>Céntrico en Salamanca</li>
+          </ul>
+        </div>
+
+        <div class="relative">
+          <div class="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl shadow-primary/15">
+            <img src="images/gabinete-azul.jpg" alt="Gabinete de la clínica con sillón dental azul marino y equipamiento moderno" width="1170" height="878" fetchpriority="high" class="absolute inset-0 size-full object-cover" />
+          </div>
+          <div class="absolute -bottom-6 left-4 flex items-center gap-3 rounded-2xl bg-white p-4 shadow-xl sm:left-6">
+            <div class="flex -space-x-1" aria-hidden="true">
+              <i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i>
+              <i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i>
+              <i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i>
+              <i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i>
+              <i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i>
+            </div>
+            <div class="leading-tight">
+              <p class="font-heading text-xl font-bold text-primary">4,9 en Google</p>
+              <p class="text-xs text-muted-foreground">+440 pacientes satisfechos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="bg-white py-20 lg:py-28">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="max-w-2xl">
+          <p class="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">Servicios</p>
+          <h2 class="mt-3 font-heading text-3xl font-bold tracking-tight text-primary text-balance sm:text-4xl">Tratamientos integrales para cada etapa de tu sonrisa</h2>
+          <p class="mt-4 text-lg leading-relaxed text-muted-foreground">Diagnóstico preciso y tratamientos a medida, siempre explicados con claridad y sin prisas.</p>
+        </div>
+
+        <ul class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <li class="group flex flex-col rounded-2xl border border-border bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:bg-secondary hover:shadow-xl hover:shadow-accent/15">
+            <span class="flex size-14 items-center justify-center rounded-xl bg-secondary text-accent transition-colors duration-300 group-hover:bg-accent group-hover:text-white"><i data-lucide="stethoscope" class="size-7" aria-hidden="true"></i></span>
+            <h3 class="mt-6 font-heading text-xl font-bold text-primary">Odontología General y Preventiva</h3>
+            <p class="mt-2 leading-relaxed text-muted-foreground">Revisiones, empastes, endodoncias y odontopediatría para cuidar la salud de toda la familia.</p>
+          </li>
+          <li class="group flex flex-col rounded-2xl border border-border bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:bg-secondary hover:shadow-xl hover:shadow-accent/15">
+            <span class="flex size-14 items-center justify-center rounded-xl bg-secondary text-accent transition-colors duration-300 group-hover:bg-accent group-hover:text-white"><i data-lucide="smile" class="size-7" aria-hidden="true"></i></span>
+            <h3 class="mt-6 font-heading text-xl font-bold text-primary">Ortodoncia e Invisalign</h3>
+            <p class="mt-2 leading-relaxed text-muted-foreground">Alinea tu sonrisa con ortodoncia invisible o brackets, con planes adaptados a cada edad.</p>
+          </li>
+          <li class="group flex flex-col rounded-2xl border border-border bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:bg-secondary hover:shadow-xl hover:shadow-accent/15">
+            <span class="flex size-14 items-center justify-center rounded-xl bg-secondary text-accent transition-colors duration-300 group-hover:bg-accent group-hover:text-white"><i data-lucide="sparkles" class="size-7" aria-hidden="true"></i></span>
+            <h3 class="mt-6 font-heading text-xl font-bold text-primary">Estética Dental y Blanqueamiento</h3>
+            <p class="mt-2 leading-relaxed text-muted-foreground">Blanqueamientos, carillas y diseño de sonrisa para una estética natural y luminosa.</p>
+          </li>
+          <li class="group flex flex-col rounded-2xl border border-border bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:bg-secondary hover:shadow-xl hover:shadow-accent/15">
+            <span class="flex size-14 items-center justify-center rounded-xl bg-secondary text-accent transition-colors duration-300 group-hover:bg-accent group-hover:text-white"><i data-lucide="wrench" class="size-7" aria-hidden="true"></i></span>
+            <h3 class="mt-6 font-heading text-xl font-bold text-primary">Implantología y Prótesis</h3>
+            <p class="mt-2 leading-relaxed text-muted-foreground">Recupera piezas perdidas con implantes y prótesis de alta calidad, funcionales y duraderas.</p>
+          </li>
+          <li class="group flex flex-col rounded-2xl border border-border bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:bg-secondary hover:shadow-xl hover:shadow-accent/15">
+            <span class="flex size-14 items-center justify-center rounded-xl bg-secondary text-accent transition-colors duration-300 group-hover:bg-accent group-hover:text-white"><i data-lucide="heart-pulse" class="size-7" aria-hidden="true"></i></span>
+            <h3 class="mt-6 font-heading text-xl font-bold text-primary">Higiene Buco-Dental y Periodoncia</h3>
+            <p class="mt-2 leading-relaxed text-muted-foreground">Limpiezas profesionales y tratamiento de encías para prevenir y frenar la enfermedad periodontal.</p>
+          </li>
+          <li class="flex flex-col justify-between rounded-2xl bg-primary p-7 text-white">
+            <div>
+              <h3 class="font-heading text-xl font-bold">¿No sabes qué tratamiento necesitas?</h3>
+              <p class="mt-2 leading-relaxed text-white/75">Te hacemos una valoración personalizada y te explicamos todas las opciones.</p>
+            </div>
+            <a href="#contacto" class="mt-6 flex h-12 w-fit items-center gap-2 rounded-full bg-accent px-6 font-semibold text-white transition-colors hover:bg-white hover:text-primary">
+              Pedir valoración
+              <i data-lucide="arrow-right" class="size-4" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="bg-secondary py-20 lg:py-28">
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="relative col-span-2 aspect-[16/10] overflow-hidden rounded-3xl">
+            <img src="images/sala-espera.jpg" alt="Sala de espera luminosa y minimalista con sillas blancas y orquídeas" loading="lazy" decoding="async" width="1170" height="890" class="absolute inset-0 size-full object-cover" />
+          </div>
+          <div class="relative aspect-square overflow-hidden rounded-3xl">
+            <img src="images/gabinete-granate.jpg" alt="Gabinete dental con sillón de última generación" loading="lazy" decoding="async" width="1170" height="642" class="absolute inset-0 size-full object-cover" />
+          </div>
+          <div class="relative aspect-square overflow-hidden rounded-3xl">
+            <img src="images/fachada.jpg" alt="Fachada de la Clínica Dental Virginia García con el logotipo VGS" loading="lazy" decoding="async" width="1170" height="883" class="absolute inset-0 size-full object-cover" />
+          </div>
+        </div>
+
+        <div>
+          <p class="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">Sobre Nosotros</p>
+          <h2 class="mt-3 font-heading text-3xl font-bold tracking-tight text-primary text-balance sm:text-4xl">Dra. Virginia García Sánchez y su equipo de expertos</h2>
+          <p class="mt-5 text-lg leading-relaxed text-muted-foreground">
+            En nuestra clínica de Salamanca combinamos la experiencia clínica de la Dra. García Sánchez con un equipo cercano y en formación continua. Unas instalaciones modernas, limpias y acogedoras, pensadas para que te sientas como en casa desde que cruzas la puerta.
+          </p>
+
+          <ul class="mt-8 flex flex-col gap-4">
+            <li class="flex gap-4 rounded-2xl bg-white p-5 shadow-sm">
+              <span class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-primary text-accent"><i data-lucide="hand-heart" class="size-6" aria-hidden="true"></i></span>
+              <div>
+                <h3 class="font-heading text-lg font-bold text-primary">Trato Cercano y Personalizado</h3>
+                <p class="mt-1 leading-relaxed text-muted-foreground">Te escuchamos, resolvemos tus dudas y diseñamos cada tratamiento pensando en ti.</p>
+              </div>
+            </li>
+            <li class="flex gap-4 rounded-2xl bg-white p-5 shadow-sm">
+              <span class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-primary text-accent"><i data-lucide="cpu" class="size-6" aria-hidden="true"></i></span>
+              <div>
+                <h3 class="font-heading text-lg font-bold text-primary">Tecnología de Vanguardia</h3>
+                <p class="mt-1 leading-relaxed text-muted-foreground">Gabinetes equipados con sillones de última generación y radiología digital.</p>
+              </div>
+            </li>
+            <li class="flex gap-4 rounded-2xl bg-white p-5 shadow-sm">
+              <span class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-primary text-accent"><i data-lucide="shield-plus" class="size-6" aria-hidden="true"></i></span>
+              <div>
+                <h3 class="font-heading text-lg font-bold text-primary">Atención Sin Dolor</h3>
+                <p class="mt-1 leading-relaxed text-muted-foreground">Técnicas mínimamente invasivas y anestesia cuidadosa para tu total tranquilidad.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reseñas -->
+    <section id="resenas" class="bg-white py-20 lg:py-28">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+          <div class="max-w-xl">
+            <p class="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">Reseñas</p>
+            <h2 class="mt-3 font-heading text-3xl font-bold tracking-tight text-primary text-balance sm:text-4xl">Lo que dicen nuestros pacientes</h2>
+          </div>
+          <div class="flex items-center gap-5 rounded-2xl border border-border bg-secondary p-5">
+            <p class="font-heading text-5xl font-bold text-primary">4,9</p>
+            <div>
+              <div class="flex gap-0.5" aria-hidden="true">
+                <i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-5 fill-amber-400 text-amber-400"></i>
+              </div>
+              <p class="mt-1 text-sm text-muted-foreground"><span class="sr-only">4,9 de 5 estrellas. </span>+440 opiniones en <strong class="font-semibold text-primary">Google</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <ul class="mt-12 grid gap-5 md:grid-cols-3">
+          <li class="flex flex-col rounded-2xl border border-border bg-white p-7 shadow-sm">
+            <div class="flex items-center justify-between">
+              <div class="flex gap-0.5" aria-hidden="true"><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i></div>
+              <i data-lucide="quote" class="size-7 text-accent/30" aria-hidden="true"></i>
+            </div>
+            <blockquote class="mt-4 flex-1 leading-relaxed text-foreground/85"><p>“Profesionalidad de principio a fin. La doctora Virginia explica todo con muchísima paciencia y el resultado de mi tratamiento ha sido perfecto.”</p></blockquote>
+            <div class="mt-6 flex items-center gap-3 border-t border-border pt-5">
+              <span class="flex size-11 items-center justify-center rounded-full bg-primary font-heading font-bold text-white" aria-hidden="true">M</span>
+              <div><p class="font-semibold text-primary">María L.</p><p class="text-sm text-muted-foreground">Hace 2 semanas · Google</p></div>
+            </div>
+          </li>
+          <li class="flex flex-col rounded-2xl border border-border bg-white p-7 shadow-sm">
+            <div class="flex items-center justify-between">
+              <div class="flex gap-0.5" aria-hidden="true"><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i></div>
+              <i data-lucide="quote" class="size-7 text-accent/30" aria-hidden="true"></i>
+            </div>
+            <blockquote class="mt-4 flex-1 leading-relaxed text-foreground/85"><p>“Siempre he tenido miedo al dentista y aquí por fin he ido tranquilo. No sentí ningún dolor. Trato cariñoso y muy cercano.”</p></blockquote>
+            <div class="mt-6 flex items-center gap-3 border-t border-border pt-5">
+              <span class="flex size-11 items-center justify-center rounded-full bg-primary font-heading font-bold text-white" aria-hidden="true">J</span>
+              <div><p class="font-semibold text-primary">Javier R.</p><p class="text-sm text-muted-foreground">Hace 1 mes · Google</p></div>
+            </div>
+          </li>
+          <li class="flex flex-col rounded-2xl border border-border bg-white p-7 shadow-sm">
+            <div class="flex items-center justify-between">
+              <div class="flex gap-0.5" aria-hidden="true"><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="size-4 fill-amber-400 text-amber-400"></i></div>
+              <i data-lucide="quote" class="size-7 text-accent/30" aria-hidden="true"></i>
+            </div>
+            <blockquote class="mt-4 flex-1 leading-relaxed text-foreground/85"><p>“Llevo a toda mi familia desde hace años. Clínica impecable, puntuales y un equipo encantador. ¡No la cambio por nada!”</p></blockquote>
+            <div class="mt-6 flex items-center gap-3 border-t border-border pt-5">
+              <span class="flex size-11 items-center justify-center rounded-full bg-primary font-heading font-bold text-white" aria-hidden="true">C</span>
+              <div><p class="font-semibold text-primary">Carmen S.</p><p class="text-sm text-muted-foreground">Hace 2 meses · Google</p></div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="mt-10 flex justify-center">
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica%20Dental%20Virginia%20Garc%C3%ADa%20S%C3%A1nchez%2C%20C.%20de%20las%20Eras%2013%2C%2037005%20Salamanca" target="_blank" rel="noopener noreferrer" class="flex h-12 items-center gap-2 rounded-full border-2 border-primary px-6 font-semibold text-primary transition-colors hover:bg-primary hover:text-white">
+            Ver todas las reseñas en Google
+            <i data-lucide="external-link" class="size-4" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-secondary py-20 lg:py-28">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="max-w-2xl">
+          <p class="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">Contacto</p>
+          <h2 class="mt-3 font-heading text-3xl font-bold tracking-tight text-primary text-balance sm:text-4xl">Pide tu cita, estamos muy cerca de ti</h2>
+        </div>
+
+        <div class="mt-12 grid gap-5 lg:grid-cols-5">
+          <div class="overflow-hidden rounded-3xl border border-border bg-white lg:col-span-3">
+            <iframe title="Mapa de ubicación: C. de las Eras, 13, 37005 Salamanca" src="https://www.google.com/maps?q=C.%20de%20las%20Eras%2C%2013%2C%2037005%20Salamanca&amp;output=embed" class="h-80 w-full lg:h-full lg:min-h-[28rem]" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="flex flex-col gap-5 lg:col-span-2">
+            <div class="rounded-3xl bg-primary p-7 text-white">
+              <div class="flex items-center gap-3">
+                <i data-lucide="clock" class="size-6 text-accent" aria-hidden="true"></i>
+                <h3 class="font-heading text-xl font-bold">Horario</h3>
+              </div>
+              <dl class="mt-5 flex flex-col divide-y divide-white/10">
+                <div class="flex flex-col gap-0.5 py-3 sm:flex-row sm:justify-between sm:gap-4"><dt class="font-medium text-white/80">Lunes y Viernes</dt><dd class="font-semibold">9:30 - 16:00</dd></div>
+                <div class="flex flex-col gap-0.5 py-3 sm:flex-row sm:justify-between sm:gap-4"><dt class="font-medium text-white/80">Martes y Jueves</dt><dd class="font-semibold">9:30 - 14:00 | 16:30 - 20:00</dd></div>
+                <div class="flex flex-col gap-0.5 py-3 sm:flex-row sm:justify-between sm:gap-4"><dt class="font-medium text-white/80">Miércoles</dt><dd class="font-semibold">9:30 - 20:00</dd></div>
+                <div class="flex flex-col gap-0.5 py-3 sm:flex-row sm:justify-between sm:gap-4"><dt class="font-medium text-white/80">Sábado y Domingo</dt><dd class="font-semibold text-accent">Cerrado</dd></div>
+              </dl>
+            </div>
+
+            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica%20Dental%20Virginia%20Garc%C3%ADa%20S%C3%A1nchez%2C%20C.%20de%20las%20Eras%2013%2C%2037005%20Salamanca" target="_blank" rel="noopener noreferrer" class="group flex gap-4 rounded-2xl border border-border bg-white p-5 transition-colors hover:border-accent">
+                <span class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-secondary text-accent"><i data-lucide="map-pin" class="size-6" aria-hidden="true"></i></span>
+                <div>
+                  <h3 class="font-semibold text-primary">Dirección</h3>
+                  <p class="text-muted-foreground">C. de las Eras, 13, 37005 Salamanca</p>
+                  <span class="mt-1 inline-flex items-center gap-1 text-sm font-semibold text-accent">Cómo llegar <i data-lucide="navigation" class="size-3.5" aria-hidden="true"></i></span>
+                </div>
+              </a>
+
+              <div class="flex gap-4 rounded-2xl border border-border bg-white p-5">
+                <span class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-secondary text-accent"><i data-lucide="phone" class="size-6" aria-hidden="true"></i></span>
+                <div>
+                  <h3 class="font-semibold text-primary">Teléfono</h3>
+                  <a href="tel:+34923100267" class="text-muted-foreground hover:text-accent">+34 923 10 02 67</a>
+                  <a href="https://wa.me/34923100267?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20cita%20en%20la%20Cl%C3%ADnica%20Dental%20Virginia%20Garc%C3%ADa%20S%C3%A1nchez." target="_blank" rel="noopener noreferrer" class="mt-1 flex items-center gap-1.5 text-sm font-semibold text-whatsapp">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="size-4"><use href="#wa-icon"/></svg> Escríbenos por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white">
+    <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
+      <div class="lg:col-span-2">
+        <span class="flex items-center gap-2.5">
+          <span class="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/10">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" class="size-8 text-accent"><path d="M9 12c4-5 10-5 15-1.5C29 7 35 7 39 12c3.5 4.5 2 10.5-1 15.5-2.2 3.8-2.4 9.5-4 13.5-.9 2.2-3 2.1-3.7-.3L27.6 32c-.9-3-6.3-3-7.2 0l-2.7 8.7c-.7 2.4-2.8 2.5-3.7.3-1.6-4-1.8-9.7-4-13.5-3-5-4.5-11-1-15.5Z" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          </span>
+          <span class="flex flex-col leading-none">
+            <span class="font-heading text-lg font-bold uppercase tracking-wide text-white">Virginia García</span>
+            <span class="font-heading text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-accent">Clínica Dental · VGS</span>
+          </span>
+        </span>
+        <p class="mt-5 max-w-sm leading-relaxed text-white/70">Odontología integral, personalizada y sin dolor en el corazón de Salamanca.</p>
+      </div>
+
+      <nav aria-label="Enlaces rápidos">
+        <h2 class="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">Enlaces</h2>
+        <ul class="mt-4 flex flex-col">
+          <li><a href="#inicio" class="flex min-h-10 items-center text-white/80 hover:text-white">Inicio</a></li>
+          <li><a href="#servicios" class="flex min-h-10 items-center text-white/80 hover:text-white">Servicios</a></li>
+          <li><a href="#nosotros" class="flex min-h-10 items-center text-white/80 hover:text-white">Sobre Nosotros</a></li>
+          <li><a href="#resenas" class="flex min-h-10 items-center text-white/80 hover:text-white">Reseñas</a></li>
+          <li><a href="#contacto" class="flex min-h-10 items-center text-white/80 hover:text-white">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">Clínica</h2>
+        <ul class="mt-4 flex flex-col gap-4 text-white/80">
+          <li class="flex gap-3"><i data-lucide="map-pin" class="mt-0.5 size-5 shrink-0 text-accent" aria-hidden="true"></i>C. de las Eras, 13, 37005 Salamanca</li>
+          <li><a href="tel:+34923100267" class="flex gap-3 hover:text-white"><i data-lucide="phone" class="mt-0.5 size-5 shrink-0 text-accent" aria-hidden="true"></i>+34 923 10 02 67</a></li>
+          <li class="flex gap-3"><i data-lucide="clock" class="mt-0.5 size-5 shrink-0 text-accent" aria-hidden="true"></i>L-V con cita previa</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10">
+      <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-white/60 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+        <p>© <span id="year">2026</span> Clínica Dental Virginia García Sánchez. Todos los derechos reservados.</p>
+        <ul class="flex gap-6">
+          <li><a href="#" class="flex min-h-10 items-center hover:text-white">Aviso Legal</a></li>
+          <li><a href="#" class="flex min-h-10 items-center hover:text-white">Política de Privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/34923100267?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20cita%20en%20la%20Cl%C3%ADnica%20Dental%20Virginia%20Garc%C3%ADa%20S%C3%A1nchez." target="_blank" rel="noopener noreferrer" aria-label="¿Necesitas ayuda? Chatea con nosotros por WhatsApp" class="group fixed bottom-5 right-5 z-50 flex items-center gap-3 sm:bottom-6 sm:right-6">
+    <span class="pointer-events-none hidden rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-primary opacity-0 shadow-lg ring-1 ring-border transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:opacity-100 sm:block sm:translate-x-2">¿Necesitas ayuda? Chatea con nosotros</span>
+    <span class="relative flex size-15 items-center justify-center">
+      <span class="animate-wa-pulse absolute inset-0 rounded-full bg-whatsapp" aria-hidden="true"></span>
+      <span class="relative flex size-15 items-center justify-center rounded-full bg-whatsapp text-white shadow-xl shadow-whatsapp/40 transition-transform group-hover:scale-105">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="size-8"><use href="#wa-icon"/></svg>
+      </span>
+    </span>
+  </a>
+
+  <svg width="0" height="0" class="absolute" aria-hidden="true">
+    <symbol id="wa-icon" viewBox="0 0 24 24">
+      <path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.23-9.42 9.43-9.42a9.36 9.36 0 0 1 9.42 9.43c0 5.2-4.23 9.43-9.43 9.43m8.02-17.45A11.27 11.27 0 0 0 12.05.72C5.8.72.71 5.8.71 12.05c0 2 .52 3.95 1.52 5.66L.62 23.6l6.02-1.58a11.3 11.3 0 0 0 5.4 1.38h.01c6.25 0 11.34-5.09 11.34-11.34 0-3.03-1.18-5.88-3.32-8.02"/>
+    </symbol>
+  </svg>
+
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+  <script>
+    lucide.createIcons();
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('icon-open');
+    const iconClose = document.getElementById('icon-close');
+
+    function setMenu(open) {
+      menu.classList.toggle('hidden', !open);
+      iconOpen.classList.toggle('hidden', open);
+      iconClose.classList.toggle('hidden', !open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    }
+
+    toggle.addEventListener('click', () => setMenu(menu.classList.contains('hidden')));
+    document.querySelectorAll('[data-close-menu]').forEach((el) => el.addEventListener('click', () => setMenu(false)));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
+  </script>
+</body>
+</html>

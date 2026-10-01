@@ -1,0 +1,14 @@
+{
+  "name": "Clínica Dental Virginia García Sánchez",
+  "short_name": "Clínica VGS",
+  "description": "Clínica dental en Salamanca. Tu sonrisa en las mejores manos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1b2a57",
+  "lang": "es",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
